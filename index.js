@@ -18,7 +18,7 @@ const corsConfig = {
 const PORT=process.env.PORT || 8000
 
 
-mongoose.connect(process.env.MONGODB_URI.toString(), )
+mongoose.connect(process.env.MONGODB_URI )
   .then(() => {
     console.log('Connected to MongoDB Atlas');
   })
